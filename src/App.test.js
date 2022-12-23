@@ -42,7 +42,7 @@ test('button should be disabled after checkbox is checked', () => {
   expect(buttonElement).toBeEnabled();
 });
 
-test('button color should be toggled on checkbox action', () => {
+it('button color should be toggled on checkbox action', () => {
   render(<App />);
   const buttonElement = screen.getByRole('button', { name: /change to blue/i });
   const checkboxElement = screen.getByRole('checkbox', { name: /disable button/i});
