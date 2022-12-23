@@ -10,10 +10,11 @@ function App() {
   return (
     <>
       <div className="App">
-        <button className='color-button' onClick={() => { buttonColor === 'red' ? setButtonColor('blue') : setButtonColor('red') }} disabled={disableButton}>Change to {newButtonColor}</button>
+        <button className={disableButton ? 'disabled-color-button' : 'enabled-color-button'} onClick={() => { buttonColor === 'red' ? setButtonColor('blue') : setButtonColor('red') }} disabled={disableButton}>Change to {newButtonColor}</button>
       </div>
       <div className="App">
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" onChange={() => setDisableButton(!disableButton)} checked={disableButton} />
+        <input type="checkbox" id="disable-button-checkbox" onChange={() => setDisableButton(!disableButton)} checked={disableButton} />
+        <label htmlFor="disable-button-checkbox">Disable Button</label>
       </div>
     </>
   );

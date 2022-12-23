@@ -39,6 +39,10 @@
   }
 }
 
-.color-button {
+.enabled-color-button {
   background-color: red;
+}
+
+.disabled-color-button {
+  background-color: gray;
 }
