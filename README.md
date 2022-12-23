@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+## Course Repo:
+
+https://github.com/bonnie/udemy-TESTING-LIBRARY/tree/main/react-code
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

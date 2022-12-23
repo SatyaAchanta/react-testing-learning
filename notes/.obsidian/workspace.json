@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "253889510a20ecf5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f50bcf684d2980a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c473b3b71bd269d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "important-points.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "96b94bfcf2120b34",
+    "type": "split",
+    "children": [
+      {
+        "id": "716032814ba1a03d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b32db88aeb5b5b9c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85f3eac7bec37182",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b61efed26b54b484",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2fd90ff085a07077",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4d18a80f7604a85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64f0eddfadbb340c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "important-points.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e9f245da577afd04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "important-points.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a37fc6ffdfa0db9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ec241a86331ac06e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "important-points.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c473b3b71bd269d7",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "important-points.md"
+  ]
+}
