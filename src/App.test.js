@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
-test ('initial conditions', () => {
+test('initial conditions', () => {
   render(<App />);
   // check button starts enabled
   const buttonElement = screen.getByRole('button', { name: /change to blue/i });
@@ -12,7 +12,7 @@ test ('initial conditions', () => {
   expect(checkboxElement).not.toBeChecked();
 });
 
-test('button has correct initial color, and updates when clicked',  () => {
+test('button has correct initial color, and updates when clicked', () => {
   render(<App />);
   const buttonElement = screen.getByRole('button', { name: /change to blue/i });
   // expect(buttonElement).toHaveStyle({backgroundColor: 'red'});
@@ -29,7 +29,7 @@ test('button has correct initial color, and updates when clicked',  () => {
 test('button should be disabled after checkbox is checked', () => {
   render(<App />);
   const buttonElement = screen.getByRole('button', { name: /change to blue/i });
-  const checkboxElement = screen.getByRole('checkbox', { name: /disable button/i});
+  const checkboxElement = screen.getByRole('checkbox', { name: /disable button/i });
 
   // at this point, checkbox is unchecked
   // So click on checkbox and button should be disabled
@@ -42,10 +42,10 @@ test('button should be disabled after checkbox is checked', () => {
   expect(buttonElement).toBeEnabled();
 });
 
-it('button color should be toggled on checkbox action', () => {
+test('button color should be toggled on checkbox action', () => {
   render(<App />);
   const buttonElement = screen.getByRole('button', { name: /change to blue/i });
-  const checkboxElement = screen.getByRole('checkbox', { name: /disable button/i});
+  const checkboxElement = screen.getByRole('checkbox', { name: /disable button/i });
 
   // at this point, checkbox is unchecked
   // So click on checkbox and button should be disabled
